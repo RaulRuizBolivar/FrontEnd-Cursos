@@ -1,0 +1,46 @@
+/*
+Paleta de colores:
+    #655643
+    #80BCA3
+    #F6F7BD
+    #E6AC27
+    #BF4D28
+*/
+body{
+    background: #655643;
+    color: #BF4D28;
+    font-size: 3em;
+    font-family: 'Arvo', serif;
+    text-align: center;
+}
+h1{
+    margin: 0 auto;
+    text-align: center;
+}
+a:link,a:visited ,a:hover ,a:active{
+    color: #BF4D28;
+    text-decoration: none;
+}
+img{
+    border-radius: 25%;
+}
+ol{
+    padding: 1em;
+    display: inline-flex;
+    border-radius:5%;
+    background-color:#80BCA3;
+    list-style-type: none;
+}
+ul{
+    list-style-type: none;
+}
+ul>li{
+    color: #F6F7BD;
+}
+button{
+    padding: 2em;
+    font-size:  1em;
+    border-radius: 15%;
+    color:#655643;
+    background: #F6F7BD;
+}
