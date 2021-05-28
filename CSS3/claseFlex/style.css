@@ -1,0 +1,41 @@
+*{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html{
+    font-size: 62.5%;
+}
+body{
+    font-size: 1.6rem;
+}
+.container{
+    border: .3rem solid black;
+    display: flex;
+    /* Esto sirve para hacer que se vayan acomodando los hijos de esta etiqueta sin salirse en ningun momento, pasando una fila más abajo cuando se ha llenado la fila actual*/
+    flex-wrap: wrap;/**/
+    /* center para centrar todo, flex-end para alinear a la derecha y flex-start para alinear a la izquierda*/
+    justify-content: flex-end;/**/
+}
+.box{
+    width: 10rem;
+    height: 10rem;
+}
+.box1{
+    background-color: blue;
+}
+.box2{
+    background-color: blueviolet;
+}
+.box3{
+    background-color: burlywood;
+}
+.box4{
+    background-color: cadetblue;
+}
+.box5{
+    background-color: coral;
+}
+.box6{
+    background-color: salmon;
+}
