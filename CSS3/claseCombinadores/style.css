@@ -1,0 +1,20 @@
+/* Adjacent Sibling, se colorean los p que vengan justo despues de un h2 hermano
+h2 + p{
+    color: red;
+}
+/**/
+/*General Siblig, so colorean todos los p que sean hermanos despues de un h2
+h2 ~ p{
+    color: red;
+}
+/**/
+/* Child, Los p que sean hijos directos de un div 
+div > p{
+    color: red;
+}
+/**/
+/* Descendiente, todas las etiquetas p que sean descendientes en cualquier grado de un div se colorean
+div p{
+    color: red;
+}
+/**/
