@@ -1,0 +1,22 @@
+*{
+    box-sizing: border-box;
+    margin:0;
+    padding:0;
+}
+html{
+    font-size: 62.5%;
+}
+main{
+    width: 100vw;
+    height: 100vh;
+    background-color:purple;
+}
+section{
+    width: 80%;
+    min-width: 220px;
+    max-width: 500px;
+    /*El min-height es un, como minimo tienes este tamaño, pero puedes crecer*/
+    min-height: 400px;
+    margin: 0 auto;
+    background-color: red;
+}
