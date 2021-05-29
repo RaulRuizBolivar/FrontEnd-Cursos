@@ -11,11 +11,15 @@ body{
 }
 .container{
     border: .3rem solid black;
-    display: flex;
+    /*Así se inicia el flexbox */
+    display: flex;/**/
     /* Esto sirve para hacer que se vayan acomodando los hijos de esta etiqueta sin salirse en ningun momento, pasando una fila más abajo cuando se ha llenado la fila actual*/
     flex-wrap: wrap;/**/
-    /* center para centrar todo, flex-end para alinear a la derecha y flex-start para alinear a la izquierda*/
-    justify-content: flex-end;/**/
+    /* center para centrar todo, flex-end para alinear a la derecha y flex-start para alinear a la izquierda, space-around para centrar los elementos entre ellos, para centrarlos con la misma separación entre ellos mismos se usa space-evently*/
+    justify-content:space-evenly/**/
+    /*Hace que se acomode todo en columnas en vez de en filas,
+    los atributos son row-reverse- column, column-reverse y el por defecto es row
+    flex-direction: column;/**/
 }
 .box{
     width: 10rem;
