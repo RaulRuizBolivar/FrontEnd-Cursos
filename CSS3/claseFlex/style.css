@@ -17,10 +17,9 @@ body{
     flex-wrap: wrap;/**/
     /* Para justify-content y align-center, center para centrar todo, flex-end para alinear a la derecha y flex-start para alinear a la izquierda, space-around para centrar los elementos entre ellos, para centrarlos con la misma separación entre ellos mismos se usa space-evently
     justify-content:space-evenly/**/
-    /*Align-items tabmien tiene valores propios, como strech, que si los elementos internos no tienen altura predefinida, se vuelven igual de altos que su contenedor,  baseline nos permite alinear todos los textos para que tengan la misma línea base
+    /*Align-items tambien tiene valores propios, como strech, que si los elementos internos no tienen altura predefinida, se vuelven igual de altos que su contenedor,  baseline nos permite alinear todos los textos para que tengan la misma línea base
     align-items: baseline;/**/
-    /*Hace que se acomode todo en columnas en vez de en filas,
-    los atributos son row-reverse- column, column-reverse y el por defecto es row
+    /*flex direction: row;Hace que se acomode todo en columnas en vez de en filas, los atributos son row, row-reverse, column, column-reverse y el por defecto es row
     flex-direction: column;/**/
 }
 .box{
