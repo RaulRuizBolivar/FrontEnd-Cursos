@@ -15,18 +15,27 @@ body{
     display: flex;/**/
     /* Esto sirve para hacer que se vayan acomodando los hijos de esta etiqueta sin salirse en ningun momento, pasando una fila más abajo cuando se ha llenado la fila actual*/
     flex-wrap: wrap;/**/
-    /* center para centrar todo, flex-end para alinear a la derecha y flex-start para alinear a la izquierda, space-around para centrar los elementos entre ellos, para centrarlos con la misma separación entre ellos mismos se usa space-evently*/
+    /* Para justify-content y align-center, center para centrar todo, flex-end para alinear a la derecha y flex-start para alinear a la izquierda, space-around para centrar los elementos entre ellos, para centrarlos con la misma separación entre ellos mismos se usa space-evently
     justify-content:space-evenly/**/
+    /*Align-items tabmien tiene valores propios, como strech, que si los elementos internos no tienen altura predefinida, se vuelven igual de altos que su contenedor,  baseline nos permite alinear todos los textos para que tengan la misma línea base
+    align-items: baseline;/**/
     /*Hace que se acomode todo en columnas en vez de en filas,
     los atributos son row-reverse- column, column-reverse y el por defecto es row
     flex-direction: column;/**/
 }
 .box{
-    width: 10rem;
+    /*width: 10rem;*/
     height: 10rem;
+    /*Flex-basis es la base de ancho para el flex*/
+    flex-basis: 10rem;
+    flex-grow: 1;
 }
 .box1{
     background-color: blue;
+    /*order:1;
+    /*Dentro del order, si algún elemento no tiene order, ira antes de todos los demás y luuego iniciarán los que lo tienen en el orden indicado.*/
+    /*flex-grow nos permite agrandar los elementos lateralmente dependiendo del espacio libre que queda, si varios tienen la propiedad se divide el crecimiento dependiendo de los valores dados("Se come el espacio que "sobra"")
+    flex-grow: 1;/**/
 }
 .box2{
     background-color: blueviolet;
