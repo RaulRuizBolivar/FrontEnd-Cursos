@@ -27,15 +27,16 @@ figure{
 img{
     width: 100%;
 }
-header nav, header figure{
+header nav, header img{
     margin: 0 auto;
 }
 header{
     display: flex;
     flex-direction: column;
     width: 100%;
-    height: 30rem;
+    height: auto;
     background-color: var(--color-principal);
+    padding-bottom: 3rem;
 }
 header nav ul li{
     display: inline;
@@ -63,7 +64,8 @@ section{
     background-color: var(--color-terciario);
     border: 0.3rem solid gray;
     padding: .5rem;
-
+    margin-top: 3rem;
+    width: 100%;
 }
 .comidaHD{
     order: 3;

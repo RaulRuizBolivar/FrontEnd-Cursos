@@ -1,12 +1,35 @@
-section{
-    display: flex;
-    flex-wrap: wrap;
+header{
+    padding: 3rem;
+    flex-direction: row;
+    height: 8rem;
+    justify-content: space-between;
+    align-items: center;
 }
-section img, section p, section button{
-    max-width: 45%;
+header nav, header img{
+    margin: 0;
+}
+header img{
+    height: 8rem;
+    width: 16rem;
+}
+section{
+    flex-flow:row wrap;
+    align-items:center;
+    justify-content: space-around;
+}
+section div{
+    align-items:center;
+    flex-basis: 50rem;
+    flex-grow:1;
+}
+section div img, section div p, section div button{
+    margin-bottom: 3rem;
+    margin-top: 3rem;
 }
 .comidaHD{
-    justify-content: flex-end;
+    flex-basis:50rem;
+    flex-grow: 1;
+    order: 1;
 }
 main{
     padding-top: 10rem;
@@ -21,7 +44,7 @@ h1{
     font-size: 6rem;
 }
 article{
-    width:  calc(var(--tamano)*0.8);
+    width: var(--tamano);
     margin-left: 1rem;
     margin-right: 1rem;
 }
