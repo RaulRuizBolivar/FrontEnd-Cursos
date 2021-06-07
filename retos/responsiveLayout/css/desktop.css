@@ -1,0 +1,27 @@
+section{
+    display: flex;
+    flex-wrap: wrap;
+}
+section img, section p, section button{
+    max-width: 45%;
+}
+.comidaHD{
+    justify-content: flex-end;
+}
+main{
+    padding-top: 10rem;
+}
+.container{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    padding-top: 10rem;
+}
+h1{
+    font-size: 6rem;
+}
+article{
+    width:  calc(var(--tamano)*0.8);
+    margin-left: 1rem;
+    margin-right: 1rem;
+}

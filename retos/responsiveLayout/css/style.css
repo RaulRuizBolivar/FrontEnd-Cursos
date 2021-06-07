@@ -1,0 +1,105 @@
+:root{
+    --color-principal : #ffb72f;
+    --color-secundario: #ffd95d;
+    --color-terciario: #ff6400;
+    --tamano: 35rem;
+}
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+html{
+    font-size: 62.5%;
+    font-family:Arial, Helvetica, sans-serif;
+}
+body{
+    font-size: 1.6rem;
+    text-align: center;
+}
+figure{
+    margin-block-end: 0;
+    margin-block-start: 0;
+    margin-inline-end: 0;
+    margin-inline-start:0;
+    padding: 3rem;
+}
+img{
+    width: 100%;
+}
+header nav, header figure{
+    margin: 0 auto;
+}
+header{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: 30rem;
+    background-color: var(--color-principal);
+}
+header nav ul li{
+    display: inline;
+    list-style-type: none;
+    margin-left: 1rem;
+    margin-right: 1rem;
+    font-size: 1.6rem;
+}
+section{
+    background-color: var(--color-secundario);
+    display: flex;
+    flex-direction: column;
+    padding: 3rem;
+}
+.logo-horizontal{
+    order: 1;
+}
+.explicacion{
+    order: 2;
+}
+.btn-comprar{
+    order: 4;
+    font-size: 2.3rem;
+    border-radius: 1rem;
+    background-color: var(--color-terciario);
+    border: 0.3rem solid gray;
+    padding: .5rem;
+
+}
+.comidaHD{
+    order: 3;
+}
+main{
+    background-color: var(--color-principal);
+    padding-top: 3rem;
+}
+h1{
+    margin-bottom: 3rem;
+}
+.container{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+article{
+    padding: 3rem;
+    background-color: var(--color-secundario);
+    width: var(--tamano);
+    border-radius: 3rem;
+    box-shadow:  0.5rem 0.5rem 0.5rem 0.5rem rgba(0.2, 0.2, 0.2, 0.2);
+    margin: 0 auto 3rem auto;
+}
+.nombre-comida{
+    font-size: 3rem;
+    margin: 2rem 0;
+}
+.comprar{
+    display: flex;
+    justify-content: space-between;
+}
+.precio{
+    font-size: 4rem;
+    color: darkgreen;
+}
+.anadir{
+    width: 5rem;
+}
